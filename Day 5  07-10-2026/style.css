@@ -1,0 +1,107 @@
+.container-form{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.container-form h3{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.container-form input.form-control , .container-form select , .container-form textarea {
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 6px;
+}
+
+.container-form .col-form-label{
+    font-size: 14px;
+    font-weight: 500;
+    color: #373838;
+}
+@media screen and (min-width: 992px) {
+.banner-div{
+    background:url('12hisdelegate_new.jpg') center no-repeat;
+    background-size: cover;
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .logo img{ display:none;}
+}
+
+@media screen and (max-width: 991px) {
+.banner-div{
+    background:#5d0f9b!important;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .footer_connect{ margin-top:30px;}
+ .logo img{ display:block; width:64%; margin:0px auto;}
+ .mb-3 {
+    margin-bottom: 0.5rem!important;
+ }
+}
+
+
+.form-title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 0;
+}
+.form-title p , .text-gry{
+    color: #74787c;
+}
+
+.container-form .form-check{
+    max-width: 150px;
+    float: left;
+    margin-left: 20px;
+}
+.container-form .form-select{
+    color: #74787c;
+}
+ul.awardsCk {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+ul.awardsCk li {
+    width: 50%;
+    font-size: 14px;
+    color: #74787c;
+}
+.colon::before{
+    content: ":";
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -20px;
+}
+.colon2::before{
+    content: ":";
+    position: absolute;
+    margin-top: -2px;
+    margin-left: -20px;
+}
+.colon3::before{
+    content: ":";
+    position: absolute;
+    margin-top: 7px;
+    margin-left: -20px;
+}
+.award-cat p{
+    color: #74787c;
+}
+.btn-smt{
+    border-radius: 50px;
+    padding: 8px 40px;
+}
+
+@media only screen and (max-width:767px){
+    ul.awardsCk li{
+        width: 100%;
+    }
+}
